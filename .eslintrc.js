@@ -3,9 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'airbnb',
-  ],
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -13,10 +11,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'react-hooks',
-  ],
+  plugins: ['react', 'react-hooks'],
   rules: {
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 1,
@@ -29,5 +24,6 @@ module.exports = {
     'func-names': 0,
     'import/no-unresolved': 0,
     'global-require': 0,
+    'react/prop-types': 0,
   },
-};
+}
