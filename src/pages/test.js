@@ -2,11 +2,28 @@ import React from 'react'
 import { connect } from 'react-redux'
 import * as CounterActionCreator from '@/store/actions/counter'
 
-const Test = ({ num }) => (
+const Test = ({ num, add, minus }) => (
   <div>
     测试的页面
     {num}
-    {/* <div onClick={this.add()}>点击</div> */}
+    <button
+      type='button'
+      className='foo'
+      onClick={() => {
+        add()
+      }}
+    >
+      加
+    </button>
+    <button
+      type='button'
+      className='foo'
+      onClick={() => {
+        minus()
+      }}
+    >
+      jian-
+    </button>
   </div>
 )
 
