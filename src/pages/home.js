@@ -1,17 +1,12 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
+import Header from '@/components/Header'
 
 const Home = () => {
   return (
     <div>
-      <ul>
-        {/* <li>
-          <Link to='/'>home</Link>
-        </li>
-        <li>
-          <Link to='/login'>login</Link>
-        </li> */}
-      </ul>
+      <ul>首页</ul>
+      <Header />
     </div>
   )
 }
