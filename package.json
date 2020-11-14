@@ -88,7 +88,6 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "build:test": "dotenv -e .env.test react-app-rewired build",
     "test": "node scripts/test.js",
     "fix": "eslint --fix src/ --ext .jsx --ext .js",
     "prettier": "prettier --write src/**/*.{js,jsx}"
