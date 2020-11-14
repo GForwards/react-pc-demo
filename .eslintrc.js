@@ -31,5 +31,7 @@ module.exports = {
         handlers: ['onClick', 'onMouseDown', 'onMouseUp', 'onKeyPress', 'onKeyDown', 'onKeyUp'],
       },
     ],
+    // 扩展运算符
+    'react/jsx-props-no-spreading': 0,
   },
 }
