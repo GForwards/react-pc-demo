@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 import routes from '@/config/routes'
 
 const { Content } = Layout
-
+console.log(process.env.REACT_APP_BASEURL)
 function RouteWithSubRoutes(route) {
   return (
     <Route

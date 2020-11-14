@@ -8,7 +8,7 @@ import request from '@/service/request'
  */
 export function test() {
   return request({
-    url: '/list',
+    url: '/hy-goods/app/goods/detail?timeNow=1605355654652&goodsId=1604393859283',
     method: 'get',
   })
 }

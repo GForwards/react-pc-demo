@@ -5,7 +5,9 @@ import axios from 'axios'
 // const codeWhiteList = [2001, 2003, 3001, 4011, 4007, 5004, 4012, 4013, 4014, 4015, 4016, 4017, 4003] // 不需要弹窗的code错误码白名单
 // 创建axios实例
 const service = axios.create({
-  baseURL: 'http://rap2api.taobao.org/app/mock/265092',
+  // baseURL: 'http://rap2api.taobao.org/app/mock/265092',
+  // baseURL: 'http://rap2api.taobao.org/app/mock/265092',
+  baseURL: '/api',
   timeout: 20000,
 })
 

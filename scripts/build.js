@@ -37,6 +37,10 @@ const useYarn = fs.existsSync(paths.yarnLockFile);
 const WARN_AFTER_BUNDLE_GZIP_SIZE = 512 * 1024;
 const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 
+console.log('-------------processss-----------')
+console.log(process.env.NODE_ENV)
+console.log('-------------processss-----------')
+
 const isInteractive = process.stdout.isTTY;
 
 // Warn and crash if required files are missing
