@@ -13,9 +13,15 @@ const HeaderComponent = (props) => {
     <Header>
       <Row justify='space-between'>
         <Col>
-          <Menu theme='dark' mode='horizontal' defaultSelectedKeys={[location.pathname]}>
+          <Menu
+            theme='dark'
+            mode='horizontal'
+            defaultSelectedKeys={[location.pathname]}
+            selectedKeys={[location.pathname]}
+          >
             <Menu.Item key='/'>
-              <Link to='/'>首页</Link>
+              {location.pathname}
+              <Link to='/'>首页 </Link>
             </Menu.Item>
             <Menu.Item key='/test'>
               <Link to='/test'>测试</Link>
