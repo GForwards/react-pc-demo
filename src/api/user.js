@@ -8,7 +8,7 @@ import request from '@/service/request'
  */
 export function test() {
   return request({
-    url: '../service/test.json',
+    url: '/list',
     method: 'get',
   })
 }
