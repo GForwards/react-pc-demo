@@ -1,3 +1,8 @@
+
+# 说明
+
+普通官网，不带任何登录验证的官网demo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
